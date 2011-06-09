@@ -15,7 +15,7 @@ It works just the same as the as3corelib image encoders from adobe.
 where bmd stands for your bitmapdata object.
 
 ==example:==
-
+{{{
 function takePicture(){
 	counter++;
 	bmd.draw(video);
@@ -27,3 +27,4 @@ function takePicture(){
 	fileStream.writeBytes(ba);
 	fileStream.close();
 }
+}}}
